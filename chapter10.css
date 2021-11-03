@@ -67,3 +67,24 @@ footer {
   background-color: #aaa;
   height: 50px;
 }
+
+
+/* ここからメディアクエリ */
+@media screen and (max-width: 768px){
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
